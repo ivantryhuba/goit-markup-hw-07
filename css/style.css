@@ -58,7 +58,7 @@ body {
 }
 
 /* Cкрытые заголовки */
-.title.hidden {
+.section__title--hidden {
   position: absolute;
   width: 1px;
   height: 1px;
@@ -404,7 +404,7 @@ body {
   background-color: var(--hero-background-color);
 }
 
-.hero .overlay {
+.hero__overlay {
   margin-left: auto;
   margin-right: auto;
   max-width: 1600px;
@@ -420,14 +420,14 @@ body {
   background-position: center;
 }
 
-.hero-container {
+.hero__container {
   margin-left: auto;
   margin-right: auto;
   padding-top: 200px;
   padding-bottom: 200px;
 }
 
-.hero-title {
+.hero__title {
   width: 696px;
 
   margin-bottom: 30px;
@@ -444,7 +444,7 @@ body {
   color: #ffffff;
 }
 
-.hero-button {
+.hero__button {
   padding: 10px 32px;
   font-weight: 700;
   font-size: 16px;
@@ -465,8 +465,8 @@ body {
   cursor: pointer;
 }
 
-.hero-button:hover,
-.hero-button:focus {
+.hero__button:hover,
+.hero__button:focus {
   background-color: #188ce8;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
@@ -478,20 +478,20 @@ body {
   background: var(--pri-background-color);
 }
 
-.features-list {
+.features__list {
   display: flex;
   justify-content: center;
 }
 
-.features-list > .item {
+.features__item {
   width: 270px;
 }
 
-.features-list > .item:not(:last-child) {
+.features__item:not(:last-child) {
   margin-right: 30px;
 }
 
-.features .thumb {
+.features__thumb {
   height: 120px;
 
   display: flex;
@@ -505,7 +505,7 @@ body {
   background-color: var(--sec-background-color);
 }
 
-.features-list .title {
+.features__title {
   margin-bottom: 10px;
 
   font-weight: 700;
@@ -517,7 +517,7 @@ body {
   color: var(--pri-text-color);
 }
 
-.features-list .text {
+.features__text {
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
@@ -534,24 +534,24 @@ body {
   background: var(--pri-background-color);
 }
 
-.we-do-list {
+.we-do__list {
   display: flex;
 }
 
-.we-do-list > .item {
+.we-do__item {
   width: 370px;
 }
 
-.we-do-list > .item:not(:last-child) {
+.we-do__item:not(:last-child) {
   margin-right: 30px;
 }
 
-.we-do-card {
+.we-do__card {
   position: relative;
   width: 100%;
 }
 
-.we-do-card .label {
+.we-do__card-label {
   position: absolute;
   bottom: 0;
 
@@ -561,7 +561,7 @@ body {
   background: rgba(47, 48, 58, 0.8);
 }
 
-.we-do-card .title {
+.we-do__card-title {
   padding: 27px 0;
 
   font-weight: 700;
@@ -582,11 +582,11 @@ body {
   background: var(--sec-background-color);
 }
 
-.team-list {
+.team__list {
   display: flex;
 }
 
-.team-list > .item {
+.team__item {
   width: 270px;
   padding-bottom: 30px;
 
@@ -597,11 +597,11 @@ body {
   border-radius: 0px 0px 4px 4px;
 }
 
-.team-list > .item:not(:last-child) {
+.team__item:not(:last-child) {
   margin-right: 30px;
 }
 
-.name {
+.team__name {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.19;
@@ -611,7 +611,7 @@ body {
   margin-top: 30px;
 }
 
-.profession {
+.team__profession {
   font-weight: normal;
   font-size: 16px;
   line-height: 1.19;
@@ -623,17 +623,17 @@ body {
   color: var(--sec-text-color);
 }
 
-.team-social {
+.social {
   display: flex;
   justify-content: center;
 
   margin-top: 16px;
 }
-.team-social .item:not(:last-child) {
+.social__item:not(:last-child) {
   margin-right: 10px;
 }
 
-.team-social .link {
+.social__link {
   display: flex;
   align-items: center;
   padding: 12px;
@@ -646,12 +646,12 @@ body {
   transition-timing-function: var(--cubic);
 }
 
-.team-social .icon {
+.social__icon {
   fill: currentColor;
 }
 
-.team-social .link:hover,
-.team-social .link:focus {
+.social__link:hover,
+.social__link:focus {
   color: var(--sec-icon-color);
   background-color: var(--accent-color);
 }
@@ -664,12 +664,12 @@ body {
   background: var(--pri-background-color);
 }
 
-.clients-list {
+.clients__list {
   display: flex;
   justify-content: center;
 }
 
-.clients-list .item {
+.clients__item {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -678,11 +678,11 @@ body {
   height: 90px;
 }
 
-.clients-list .item:not(:last-child) {
+.clients__item:not(:last-child) {
   margin-right: 30px;
 }
 
-.clients-list .link {
+.clients__link {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -700,12 +700,12 @@ body {
   transition-timing-function: var(--cubic);
 }
 
-.clients-list .icon {
+.clients__icon {
   fill: currentColor;
 }
 
-.clients-list .link:hover,
-.clients-list .link:focus {
+.clients__link:hover,
+.clients__link:focus {
   border: 1px solid var(--accent-color);
   color: var(--accent-color);
 }
