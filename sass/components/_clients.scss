@@ -37,8 +37,8 @@
     border-radius: 4px;
 
     transition-property: color;
-    transition-duration: var(--time-duration);
-    transition-timing-function: var(--cubic);
+    transition-duration: $time-duration;
+    transition-timing-function: $cubic;
   }
 
   &__icon {
