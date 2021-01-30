@@ -25,21 +25,21 @@
   padding-top: 32px;
   padding-bottom: 32px;
 
-  color: var(--pri-text-color);
+  color: $pri-text-color;
 
   transition-property: color;
-  transition-duration: var(--time-duration);
-  transition-timing-function: var(--cubic);
+  transition-duration: $time-duration;
+  transition-timing-function: $cubic;
   
   &:hover,
   &:focus {
-    color: var(--accent-color);
+    color: $accent-color;
   }
 }
 
 .nav__link--current {
   position: relative;
-  color: var(--accent-color);
+  color: $accent-color;
 
 
   &::after {
@@ -51,7 +51,7 @@
   width: 100%;
   height: 4px;
 
-  background-color: var(--accent-color);
+  background-color: $accent-color;
   border-radius: 2px;
   }
 }

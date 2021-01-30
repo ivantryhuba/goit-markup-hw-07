@@ -24,15 +24,15 @@
   padding-top: 32px;
   padding-bottom: 32px;
 
-  color: var(--sec-text-color);
+  color: $sec-text-color;
 
   transition-property: color;
-  transition-duration: var(--time-duration);
-  transition-timing-function: var(--cubic);
+  transition-duration: $time-duration;
+  transition-timing-function: $cubic;
   
 
   &:hover,
   &:focus {
-    color: var(--accent-color);
+    color: $accent-color;
   }
 }
