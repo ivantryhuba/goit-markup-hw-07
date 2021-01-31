@@ -36,9 +36,7 @@
     border: 1px solid $pri-icon-color;
     border-radius: 4px;
 
-    transition-property: color;
-    transition-duration: $time-duration;
-    transition-timing-function: $cubic;
+    @include transition (color);
   }
 
   &__icon {

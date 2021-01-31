@@ -15,9 +15,7 @@
 
     color: #ffffff;
 
-    transition-property: border;
-    transition-duration: $time-duration;
-    transition-timing-function: $cubic;
+    @include transition (border);
   }
 
   &__form {

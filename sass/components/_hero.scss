@@ -57,9 +57,7 @@
   border: transparent;
   border-radius: 4px;
 
-  transition-property: background-color, box-shadow;
-  transition-duration: var(--time-duration);
-  transition-timing-function: var(--cubic);
+  @include transition (background-color, box-shadow);
 
   cursor: pointer;
 

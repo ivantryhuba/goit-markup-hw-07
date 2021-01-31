@@ -34,9 +34,7 @@
     color: #ffffff;
     background-color: rgba(255, 255, 255, 0.1);
 
-    transition-property: background-color;
-    transition-duration: $time-duration;
-    transition-timing-function: $cubic;
+    @include transition (background-color);
   }
 
   &__icon {

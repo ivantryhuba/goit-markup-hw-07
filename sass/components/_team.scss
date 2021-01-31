@@ -65,9 +65,7 @@
 
     border-radius: 50%;
 
-    transition-property: color, background-color;
-    transition-duration: $time-duration;
-    transition-timing-function: $cubic;
+    @include transition (color, background-color);
   }
 
   &__icon {

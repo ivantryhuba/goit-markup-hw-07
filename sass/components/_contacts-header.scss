@@ -26,11 +26,8 @@
 
   color: $sec-text-color;
 
-  transition-property: color;
-  transition-duration: $time-duration;
-  transition-timing-function: $cubic;
+  @include transition (color);
   
-
   &:hover,
   &:focus {
     color: $accent-color;

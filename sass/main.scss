@@ -1,4 +1,7 @@
+@import 'base/fonts';
+@import 'utils/normalize';
 @import 'utils/variables';
+@import 'utils/mixin';
 @import 'base/base';
 @import 'base/reset';
 @import 'components/hidden-titles';
@@ -20,3 +23,4 @@
 @import 'components/portfolio';
 @import 'components/filter';
 @import 'components/progects';
+@import 'components/modal';

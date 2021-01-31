@@ -18,9 +18,7 @@
   &__link {
     display: block;
 
-    transition-property: box-shadow;
-    transition-duration: $time-duration;
-    transition-timing-function: $cubic;
+    @include transition (box-shadow);
   }
 
   &__link:hover,

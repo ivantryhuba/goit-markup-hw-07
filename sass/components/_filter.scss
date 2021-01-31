@@ -21,12 +21,10 @@
     border: transparent;
     border-radius: 4px;
 
-    color: var(--pri-text-color);
+    color: $pri-text-color;
     background-color: $sec-background-color;
 
-    transition-property: color, background-color, box-shadow;
-    transition-duration: $time-duration;
-    transition-timing-function: $cubic;
+    @include transition (color, background-color, box-shadow);
   }
 
   &__button:hover,
